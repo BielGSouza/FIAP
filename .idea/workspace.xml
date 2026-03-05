@@ -5,11 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="34941189-431e-4771-9069-2d35863a81b7" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/1º ANO 2026/Fases/Fase 01/Capitulos/Capitulo 07/Exercicios/Exercicio01.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/1º ANO 2026/Fases/Fase 01/Capitulos/Capitulo 07/Exercicios/Exercicio02.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/1º ANO 2026/Fases/Fase 01/Capitulos/Capitulo 07/Exercicios/Exercicio03.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/1º ANO 2026/Fases/Fase 01/Capitulos/Capitulo 07/Treino01.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/1º ANO 2026/Fases/Fase 01/Capitulos/Capitulo 07/Treino02.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/1º ANO 2026/Fases/Fase 01/Capitulos/Capitulo 07/Treino07.py" beforeDir="false" afterPath="$PROJECT_DIR$/1º ANO 2026/Fases/Fase 01/Capitulos/Capitulo 07/Treino05.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -26,36 +22,36 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 3
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 3
+}</component>
   <component name="ProjectId" id="3AU2djmDOVjfq5y2c9TX5OCYiHd" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ModuleVcsDetector.initialDetectionPerformed": "true",
-    "Python.Exercicio01.executor": "Run",
-    "Python.Exercicio02.executor": "Run",
-    "Python.Exercicio03.executor": "Run",
-    "Python.Treino01.executor": "Run",
-    "Python.Treino02.executor": "Run",
-    "Python.b.executor": "Run",
-    "Python.exemplo_elif.executor": "Run",
-    "Python.exemplo_if_encadeado.executor": "Run",
-    "Python.exemplo_if_simples (1).executor": "Run",
-    "Python.tipos_variaveis.executor": "Run",
-    "Python.verificadorDeIdade.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "git-widget-placeholder": "main",
-    "ignore.virus.scanning.warn.message": "true",
-    "last_opened_file_path": "C:/Users/Gabriel/Documents/FIAP",
-    "settings.editor.selected.configurable": "preferences.editor"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;Python.Exercicio01.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Exercicio02.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Exercicio03.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Treino01.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Treino02.executor&quot;: &quot;Run&quot;,
+    &quot;Python.b.executor&quot;: &quot;Run&quot;,
+    &quot;Python.exemplo_elif.executor&quot;: &quot;Run&quot;,
+    &quot;Python.exemplo_if_encadeado.executor&quot;: &quot;Run&quot;,
+    &quot;Python.exemplo_if_simples (1).executor&quot;: &quot;Run&quot;,
+    &quot;Python.tipos_variaveis.executor&quot;: &quot;Run&quot;,
+    &quot;Python.verificadorDeIdade.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/Gabriel/Documents/FIAP&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.editor&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\Gabriel\Documents\FIAP\1º ANO 2026\Fases\Fase 01\Capitulos\Capitulo 07\Exercicios" />
