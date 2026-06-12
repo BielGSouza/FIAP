@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- CSS EXTERNO -->
+     <link rel="stylesheet"  href="./src/css/estilo.css">
+   
+    <title>Live 3</title>
+</head>
+<body>
+
+    <header>
+        <h1 class="logo">PROJETO <span>LIVE</span></h1>
+
+        <div class="menu-hamburguer"  id="menu-icone">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+        <nav id="nav-menu">
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Produtos</a></li>
+                <li><a href="#">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main class="container">
+        <div class="slideshow">
+            <h2 class="efeito-escrita">Conheça Nossas Ofertas</h2>
+        </div>
+
+        <p id="texto">Produtos em Destaques</p>
+
+        <div class="card-produtos">
+            <div class="card">
+                <img class="img-card" src="./src/assets/cooler.jpg" alt="">
+                <p class="p-card">Coller</p>
+                <button class="btn-comprar" onclick="AdicionarAoCarrinho()">Comprar</button>
+            </div>
+            <div class="card">
+                <img class="img-card" src="./src/assets/gabinete.jpg" alt="">
+                <p class="p-card">Gabinete</p>
+                <button class="btn-comprar" onclick="AdicionarAoCarrinho()">Comprar</button>
+            </div>
+            <div class="card">
+                <img class="img-card" src="./src/assets/memoria-ram.jpg" alt="">
+                <p class="p-card"> Memoria Ram</p>
+                <button class="btn-comprar" onclick="AdicionarAoCarrinho()">Comprar</button>
+            </div>
+            <div class="card">
+                <img class="img-card" src="./src/assets/placa-de-video.jpg" alt="">
+                <p class="p-card"> Placa de Video</p>
+                <button class="btn-comprar" onclick="AdicionarAoCarrinho()">Comprar</button>
+            </div>
+            <div class="card">
+                <img class="img-card" src="./src/assets/processador.jpg" alt="">
+                <p class="p-card">Processador</p>
+                <button class="btn-comprar" onclick="AdicionarAoCarrinho()">Comprar</button>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <p>&copy;-2026- Direitos Reservados</p>
+    </footer>
+
+
+      <!-- JS EXTERNO -->
+     <script src="./src/js/script.js"></script> 
+</body>
+</html>
