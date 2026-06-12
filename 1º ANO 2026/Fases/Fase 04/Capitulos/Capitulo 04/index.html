@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Atividade Prática do Cap.04</title>
+    <style>
+        *{
+            margin: 0px;
+            padding: 0px;
+        }
+        body{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+        }
+        #campo{
+            background-color: gray;
+            padding: 50px;
+            width: 50%;
+            height: 50%;
+            border-radius: 25px;
+            box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.305);
+            border: 1px solid yellowgreen;
+            color: black;
+
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+            gap: 50px;
+        }
+        input{
+            width: 100%;
+            height: 50px;
+            padding: 10px;
+            border-radius: 999px;
+        }
+
+        .btn-cor{
+            border: 1px solid black;
+            border-radius: 15px;
+            padding: 10px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <!-- 
+        Essa atividade propõem as seguintes coisas:
+
+        1 - Crie um script que tenha um campo para quando o usuário escrever em um campo do tipo input, o texto que estiver escrevendo seja reproduzido no título da página, criado com uma tag “h1”. 
+
+        2 - Ao final, que ele tenha 4 botões escritas as cores “azul”, “verde”, “amarelo” e “vermelho”. 
+
+        3 - Se o usuário clicar nos botões, muda a cor do texto para as cores título dos botões.
+
+        4 - Após ele escolher a cor do texto, se ele passar o mouse sobre o parágrafo, que seja aberto na tela um “Alert” informando o nome da cor escolhida.
+    -->
+    
+    <div id="campo">
+        <!-- Esse h1 é o titulo que irá mudar de acordo o texto -->
+        <h1 id="titulo"></h1> 
+
+        <input type="text" name="texto-titulo" id="texto-titulo">
+
+        <div>
+            <button id="cor-azul" class="btn-cor" style="background-color: blue;" onclick="AddCor('blue')">Azul</button>
+            <button id="cor-azul" class="btn-cor" style="background-color: green;" onclick="AddCor('green')">Verde</button>
+            <button id="cor-azul" class="btn-cor" style="background-color: yellow;" onclick="AddCor('yellow')">Amarelo</button>
+            <button id="cor-azul" class="btn-cor" style="background-color: red;" onclick="AddCor('red')">Vermelho</button>
+        </div>
+    </div>
+
+    <script>
+        let titulo = document.getElementById('titulo');
+        let input = document.getElementById('texto-titulo');
+
+        input.addEventListener('keyup', Digitar)
+
+        function Digitar() {
+            titulo.innerHTML = input.value
+        }
+
+        function AddCor(cor) {
+            titulo.style.color = cor
+        }
+    </script>
+</body>
+</html>
